@@ -1,8 +1,11 @@
 body {
 	background-image: url("images/paul-berthelon-bg.jpg");
+	display: grid;
+	max-width: 100%;
 }
 
 nav {
 	max-width: 20%;
 	height: auto;
+	display: grid;
 }
