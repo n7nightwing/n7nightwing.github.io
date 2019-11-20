@@ -5,6 +5,7 @@ body {
 }
 
 nav {
+	float: left;
 	max-width: 20%;
 	height: auto;
 	display: grid;
@@ -14,4 +15,5 @@ nav {
 
 .content {
 	grid-column: 2 / 3;
+	float: right;
 }
