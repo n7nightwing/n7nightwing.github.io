@@ -1,3 +1,7 @@
 body {
 	background-image: url("images/paul-berthelon-bg.jpg");
 }
+
+nav {
+	max-width: 20%;
+}
