@@ -1,7 +1,14 @@
 body {
 	background-image: url("images/paul-berthelon-bg.jpg");
-	display: grid;
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
 	max-width: 100%;
+}
+
+.container {
+	display: flex;
+	flex: 1;
 }
 
 nav {
@@ -9,11 +16,9 @@ nav {
 	max-width: 20%;
 	height: auto;
 	display: grid;
-	grid-column: 1;
-	grid-row: 1 / span *;
+	order: -1;
 }
 
 .content {
-	grid-column: 2 / 3;
-	float: right;
+	flex: 1;
 }
