@@ -8,4 +8,10 @@ nav {
 	max-width: 20%;
 	height: auto;
 	display: grid;
+	grid-column: 1;
+	grid-row: 1 / span *;
+}
+
+.content {
+	grid-column: 2 / 3;
 }
