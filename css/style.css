@@ -1,5 +1,5 @@
 body {
-	background-image: url("images/paul-berthelon-bg.jpg");
+	background-image: url("/images/paul-berthelon-bg.jpg");
 	display: flex;
 	min-height: 100vh;
 	flex-direction: column;
