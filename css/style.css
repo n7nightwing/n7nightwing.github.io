@@ -47,7 +47,7 @@ h1 {
 	font-size: 20px;
 }
 
-footer {
+footer p {
 	display: flex;
 	justify-content: center;
 	max-width: 100%;
