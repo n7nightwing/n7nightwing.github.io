@@ -19,6 +19,10 @@ header {
 	line-height: 30px;
 }
 
+.links {
+	display: flex;
+}
+
 h1 {
 	justify-content: center;
 }
