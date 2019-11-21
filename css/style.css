@@ -10,7 +10,7 @@ body {
 
 header {
 	display: inline-flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	background-color: black;
 	color: white;
 	font: 'Dosis';
@@ -23,7 +23,18 @@ header {
 	display: flex;
 }
 
+.links a {
+	padding-right: 50px;
+	text-decoration: none;
+}
+
+.links a:hover {
+	background-color: green;
+	color: white;
+}
+
 h1 {
+	display: flex;
 	justify-content: center;
 }
 
