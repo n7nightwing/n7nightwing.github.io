@@ -1,24 +1,21 @@
 body {
+	font-family; 'Dosis', sans-serif;
 	background-image: url("/images/paul-berthelon-bg.jpg");
-	display: flex;
+	display: grid;
 	min-height: 100vh;
 	flex-direction: column;
 	max-width: 100%;
 }
 
 .container {
-	display: flex;
+	display: grid;
 	flex: 1;
 }
 
 nav {
-	float: left;
-	max-width: 20%;
+	grid-row: 1;
+	grid-column: 1 span 12
 	height: auto;
 	display: grid;
 	order: -1;
-}
-
-.content {
-	flex: 1;
 }
