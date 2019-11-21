@@ -9,10 +9,9 @@ body {
 
 .container {
 	display: grid;
-	flex: 1;
 }
 
-nav {
+.links {
 	grid-row: 1;
 	grid-column: 1 span 12
 	height: auto;
