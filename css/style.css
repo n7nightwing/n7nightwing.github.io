@@ -1,16 +1,31 @@
 body {
-	font-family; Dosis, sans-serif;
+	font-family; 'Dosis', sans-serif;
 	background-image: url("/images/paul-berthelon-bg.jpg");
 	min-height: 100vh;
 	flex-direction: column;
 	max-width: 100%;
+	margin: 0 auto;
+	justify-content: space-between
 }
 
 
 header {
-	grid-row: 1;
-	grid-column: 1 span 12
-	height: auto;
 	display: inline-flex;
-	justify-content: space-around
+	justify-content: space-between;
+	background-color: black;
+	color: white;
+	font: 'Dosis';
+	width: 100%;
+	text-align: center;
+	line-height: 30px;
+}
+
+h1 {
+	justify-content: center;
+}
+
+content {
+	flex-grow: 1;
+	display: flex;
+	justify-content: space-around;
 }
